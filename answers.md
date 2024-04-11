@@ -2,14 +2,19 @@
 
 
     1.
+   
+        "laravel/framework"
+        "laravel/tinker"
+
+        "fakerphp/faker"
         "laravel/pint"
-
         "laravel/sail"
-
+        "mockery/mockery"
+        "nunomaduro/collision"
+        "pestphp/pest"
         "pestphp/pest-plugin-laravel"
-
         "spatie/laravel-ignition"
         
-    1. директория config хранит в себе файлы конфигурационных настроек, их значения определенны по-умолчанию при первом создании проекта.
+    2. директория config хранит в себе файлы конфигурационных настроек, их значения определенны по-умолчанию при первом создании проекта.
    
-    2. Vendor
+    3. Директория app -> Models
